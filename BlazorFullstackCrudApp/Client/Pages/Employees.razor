@@ -1,0 +1,39 @@
+﻿
+@page "/employees"
+@inject IEmployeeService EmployeeService
+<PageTitle>Employees</PageTitle>
+
+<h3>Employees</h3>
+
+<table class="table">
+	<thead>
+		<tr>
+			<th>First Name</th>
+			<th>Last Name</th>
+			<th>Role</th>
+			<th>Company</th>
+			<th></th>
+		</tr>
+	</thead>
+	<tbody>
+		@foreach (var employee in EmployeeService.Employees){
+			<tr>
+				<td>@employee.FirstName</td>
+				<td>@employee.LastName</td>
+				<td>@employee.Role</td>
+				<td>@employee.Company.Name</td>
+				<td></td>
+			</tr>
+		}
+	</tbody>
+</table>
+
+
+
+@code {
+	protected override async Task OnInitializedAsync()
+	{
+		await EmployeeService.GetEmployees();
+	}
+	
+}

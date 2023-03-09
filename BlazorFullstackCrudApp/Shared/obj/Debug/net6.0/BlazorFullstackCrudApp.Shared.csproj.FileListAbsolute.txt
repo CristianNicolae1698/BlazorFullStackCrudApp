@@ -1,0 +1,12 @@
+C:\Users\crist\Documents\Visual Studio 2022\repos\BlazorFullstackCrudApp\BlazorFullstackCrudApp\Shared\bin\Debug\net6.0\BlazorFullstackCrudApp.Shared.deps.json
+C:\Users\crist\Documents\Visual Studio 2022\repos\BlazorFullstackCrudApp\BlazorFullstackCrudApp\Shared\bin\Debug\net6.0\BlazorFullstackCrudApp.Shared.dll
+C:\Users\crist\Documents\Visual Studio 2022\repos\BlazorFullstackCrudApp\BlazorFullstackCrudApp\Shared\bin\Debug\net6.0\BlazorFullstackCrudApp.Shared.pdb
+C:\Users\crist\Documents\Visual Studio 2022\repos\BlazorFullstackCrudApp\BlazorFullstackCrudApp\Shared\obj\Debug\net6.0\BlazorFullstackCrudApp.Shared.csproj.AssemblyReference.cache
+C:\Users\crist\Documents\Visual Studio 2022\repos\BlazorFullstackCrudApp\BlazorFullstackCrudApp\Shared\obj\Debug\net6.0\BlazorFullstackCrudApp.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\crist\Documents\Visual Studio 2022\repos\BlazorFullstackCrudApp\BlazorFullstackCrudApp\Shared\obj\Debug\net6.0\BlazorFullstackCrudApp.Shared.AssemblyInfoInputs.cache
+C:\Users\crist\Documents\Visual Studio 2022\repos\BlazorFullstackCrudApp\BlazorFullstackCrudApp\Shared\obj\Debug\net6.0\BlazorFullstackCrudApp.Shared.AssemblyInfo.cs
+C:\Users\crist\Documents\Visual Studio 2022\repos\BlazorFullstackCrudApp\BlazorFullstackCrudApp\Shared\obj\Debug\net6.0\BlazorFullstackCrudApp.Shared.csproj.CoreCompileInputs.cache
+C:\Users\crist\Documents\Visual Studio 2022\repos\BlazorFullstackCrudApp\BlazorFullstackCrudApp\Shared\obj\Debug\net6.0\BlazorFullstackCrudApp.Shared.dll
+C:\Users\crist\Documents\Visual Studio 2022\repos\BlazorFullstackCrudApp\BlazorFullstackCrudApp\Shared\obj\Debug\net6.0\refint\BlazorFullstackCrudApp.Shared.dll
+C:\Users\crist\Documents\Visual Studio 2022\repos\BlazorFullstackCrudApp\BlazorFullstackCrudApp\Shared\obj\Debug\net6.0\BlazorFullstackCrudApp.Shared.pdb
+C:\Users\crist\Documents\Visual Studio 2022\repos\BlazorFullstackCrudApp\BlazorFullstackCrudApp\Shared\obj\Debug\net6.0\ref\BlazorFullstackCrudApp.Shared.dll
