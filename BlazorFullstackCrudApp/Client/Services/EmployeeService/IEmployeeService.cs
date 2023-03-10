@@ -10,6 +10,11 @@ namespace BlazorFullstackCrudApp.Client.Services.EmployeeService
 		Task GetCompanies();
 		Task GetEmployees();
 
-		Task GetSingleEmployee(int id);
+		Task <Employee> GetSingleEmployee(int id);
+		Task CreateEmployee(Employee employee);	
+
+		Task UpdateEmployee(Employee employee);
+
+		Task DeleteEmployee(int id);
 	}
 }

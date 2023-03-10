@@ -1,6 +1,9 @@
 ﻿
 @page "/employees"
 @inject IEmployeeService EmployeeService
+@inject NavigationManager NavigationManager
+
+
 <PageTitle>Employees</PageTitle>
 
 <h3>Employees</h3>
@@ -22,12 +25,14 @@
 				<td>@employee.LastName</td>
 				<td>@employee.Role</td>
 				<td>@employee.Company.Name</td>
-				<td></td>
+				<td>
+					<button class="btn btn-primary" @onclick="(()=>ShowEmployee(employee.Id))"><i class="oi oi-pencil"></i></button>
+				</td>
 			</tr>
 		}
 	</tbody>
 </table>
-
+<button class="btn btn-primary" @onclick="CreateNewEmployee">Create New Employee</button>
 
 
 @code {
@@ -35,5 +40,14 @@
 	{
 		await EmployeeService.GetEmployees();
 	}
-	
+
+
+	void ShowEmployee(int id)
+	{
+		NavigationManager.NavigateTo($"employee/{id}");
+	}
+
+	void CreateNewEmployee(){
+		NavigationManager.NavigateTo("/employee");
+	}
 }

@@ -1,0 +1,90 @@
+﻿@page "/employee"
+@page "/employee/{id:int}"
+@inject IEmployeeService EmployeeService
+
+@if (Id==null)
+{
+	<PageTitle>Create a new Employee</PageTitle>
+	<h3>Create a new Employee</h3>
+}
+else{
+	<PageTitle>Edit @employee.Role</PageTitle>
+	<h3>Edit @employee.Role</h3>
+}
+
+
+<EditForm Model="employee" OnSubmit="HandleSubmit">
+	<div>
+		<label for="firstname">First Name</label>
+		<InputText id="firstname" @bind-Value="employee.FirstName" class="form-control"></InputText>
+	</div>
+	<div>
+		<label for="lastname">Last Name</label>
+		<InputText id="lastname" @bind-Value="employee.LastName" class="form-control"></InputText>
+	</div>
+	<div>
+		<label for="role">Role</label>
+		<InputText id="role" @bind-Value="employee.Role" class="form-control"></InputText>
+	</div>
+	<div>
+		<label>Company</label><br/>
+		<InputSelect @bind-Value="employee.CompanyId" class="form-select">
+			@foreach(var company in EmployeeService.Companies){
+				<option value="@company.Id">@company.Name</option>
+			}
+		</InputSelect>
+	</div>
+	<br/>
+	<button type="submit" class=" btn btn-primary">@btnText</button>
+	<button type="button" class=" btn btn-danger" @onclick="DeleteEmployee">Delete Employee</button>
+</EditForm>
+
+
+@code {
+	[Parameter]
+	public int? Id { get; set; }
+
+
+	string btnText = string.Empty;
+
+
+
+	BlazorFullstackCrudApp.Shared.Employee employee = new BlazorFullstackCrudApp.Shared.Employee { Company = new BlazorFullstackCrudApp.Shared.Company() };
+
+
+	protected override async Task OnInitializedAsync(){
+		btnText = Id == null ? "Save New Employee" : "Update Employee";
+		await EmployeeService.GetCompanies();
+	}
+
+
+	protected override async Task OnParametersSetAsync()
+	{
+		if(Id==null){
+			employee.Company = EmployeeService.Companies[0];
+			employee.CompanyId = employee.Company.Id;
+
+		}
+		else{
+			employee = await EmployeeService.GetSingleEmployee((int)Id);
+		}
+	}
+
+	async Task HandleSubmit()
+	{
+		if(Id==null){
+			await EmployeeService.CreateEmployee(employee);
+		}
+		else
+		{
+			await EmployeeService.UpdateEmployee(employee);
+		}
+
+	}
+
+	async Task DeleteEmployee()
+	{
+		await EmployeeService.DeleteEmployee(employee.Id);
+	}
+
+}

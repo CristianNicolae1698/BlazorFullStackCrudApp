@@ -804,10 +804,6 @@ C:\Users\crist\Documents\Visual Studio 2022\repos\BlazorFullstackCrudApp\BlazorF
 C:\Users\crist\Documents\Visual Studio 2022\repos\BlazorFullstackCrudApp\BlazorFullstackCrudApp\Client\obj\Debug\net6.0\build-gz\SrYXuSRy.gz
 C:\Users\crist\Documents\Visual Studio 2022\repos\BlazorFullstackCrudApp\BlazorFullstackCrudApp\Client\obj\Debug\net6.0\build-gz\cuc3j63K.gz
 C:\Users\crist\Documents\Visual Studio 2022\repos\BlazorFullstackCrudApp\BlazorFullstackCrudApp\Client\obj\Debug\net6.0\build-gz\XTHX3H46.gz
-C:\Users\crist\Documents\Visual Studio 2022\repos\BlazorFullstackCrudApp\BlazorFullstackCrudApp\Client\obj\Debug\net6.0\build-gz\sMB8BGkM.gz
-C:\Users\crist\Documents\Visual Studio 2022\repos\BlazorFullstackCrudApp\BlazorFullstackCrudApp\Client\obj\Debug\net6.0\build-gz\lVpK1qZs.gz
-C:\Users\crist\Documents\Visual Studio 2022\repos\BlazorFullstackCrudApp\BlazorFullstackCrudApp\Client\obj\Debug\net6.0\build-gz\Tu6eNjTu.gz
-C:\Users\crist\Documents\Visual Studio 2022\repos\BlazorFullstackCrudApp\BlazorFullstackCrudApp\Client\obj\Debug\net6.0\build-gz\ZT4H63Yp.gz
 C:\Users\crist\Documents\Visual Studio 2022\repos\BlazorFullstackCrudApp\BlazorFullstackCrudApp\Client\obj\Debug\net6.0\build-gz\5eoWDdPQ.gz
 C:\Users\crist\Documents\Visual Studio 2022\repos\BlazorFullstackCrudApp\BlazorFullstackCrudApp\Client\obj\Debug\net6.0\blazor.boot.json
 C:\Users\crist\Documents\Visual Studio 2022\repos\BlazorFullstackCrudApp\BlazorFullstackCrudApp\Client\obj\Debug\net6.0\staticwebassets.build.json
@@ -821,3 +817,7 @@ C:\Users\crist\Documents\Visual Studio 2022\repos\BlazorFullstackCrudApp\BlazorF
 C:\Users\crist\Documents\Visual Studio 2022\repos\BlazorFullstackCrudApp\BlazorFullstackCrudApp\Client\obj\Debug\net6.0\refint\BlazorFullstackCrudApp.Client.dll
 C:\Users\crist\Documents\Visual Studio 2022\repos\BlazorFullstackCrudApp\BlazorFullstackCrudApp\Client\obj\Debug\net6.0\BlazorFullstackCrudApp.Client.pdb
 C:\Users\crist\Documents\Visual Studio 2022\repos\BlazorFullstackCrudApp\BlazorFullstackCrudApp\Client\obj\Debug\net6.0\ref\BlazorFullstackCrudApp.Client.dll
+C:\Users\crist\Documents\Visual Studio 2022\repos\BlazorFullstackCrudApp\BlazorFullstackCrudApp\Client\obj\Debug\net6.0\build-gz\sMB8BGkM.gz
+C:\Users\crist\Documents\Visual Studio 2022\repos\BlazorFullstackCrudApp\BlazorFullstackCrudApp\Client\obj\Debug\net6.0\build-gz\lVpK1qZs.gz
+C:\Users\crist\Documents\Visual Studio 2022\repos\BlazorFullstackCrudApp\BlazorFullstackCrudApp\Client\obj\Debug\net6.0\build-gz\Tu6eNjTu.gz
+C:\Users\crist\Documents\Visual Studio 2022\repos\BlazorFullstackCrudApp\BlazorFullstackCrudApp\Client\obj\Debug\net6.0\build-gz\ZT4H63Yp.gz
